@@ -2,3 +2,22 @@
 	padding: 0;
 	margin: 0;
 }
+
+body{
+	background-color:rgba(38,38,38,0.88);
+}
+
+.character{
+	margin:100px auto 0;
+	background-image: url(surisuri_yoko.png);
+	height: 0;
+	overflow: hidden;
+	padding-top:119.28px;
+	width:192.72px;
+	animation:sprite 1s steps(6,start) infinite;
+}
+
+@keyframes sprite{
+	0%{background-position: 0 0;}
+	100%{background-position:1148.821px 0 ;}
+}
